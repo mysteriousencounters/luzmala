@@ -6108,6 +6108,12 @@ textarea.form-control-lg {
   --bs-offcanvas-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
+.logo-footer {
+  max-width: 128px;
+  height: auto;
+  margin-bottom: 2em;
+}
+
 @media (max-width: 575.98px) {
   .offcanvas-sm {
     position: fixed;
@@ -6145,6 +6151,11 @@ textarea.form-control-lg {
     width: var(--bs-offcanvas-width);
     border-left: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);
     transform: translateX(100%);
+  }
+
+  .btn-responsive-font-size
+  {
+    font-size: 0.75rem !important;
   }
 }
 @media (max-width: 575.98px) {
